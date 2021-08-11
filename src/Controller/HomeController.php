@@ -18,7 +18,7 @@ class HomeController extends AbstractController
     }
 
     /**
-    * @Route("/about")
+    * @Route("/about",search, methods={"GET"})
     */
     public function about()
     {
